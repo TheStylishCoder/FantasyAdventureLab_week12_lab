@@ -1,6 +1,7 @@
 package characters;
 
 import enums.WeaponType;
+import player.Player;
 
 public class Knight extends Warrior {
 
@@ -8,11 +9,7 @@ public class Knight extends Warrior {
         super(weapon);
     }
 
-    public String hasName(String name) {
-        return null;
-    }
+    public void changeHealth(Player player, int healthValue){
 
-    public int changeHealth(int healthValue) {
-        return 0;
     }
 }

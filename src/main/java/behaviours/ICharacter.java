@@ -1,7 +1,8 @@
 package behaviours;
 
+import player.Player;
+
 public interface ICharacter {
 
-    String hasName(String name);
-    int changeHealth(int healthValue);
+    void changeHealth(Player player, int healthValue);
 }

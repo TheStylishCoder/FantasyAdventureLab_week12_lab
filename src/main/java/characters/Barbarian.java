@@ -1,6 +1,7 @@
 package characters;
 
 import enums.WeaponType;
+import player.Player;
 
 public class Barbarian extends Warrior {
 
@@ -9,11 +10,8 @@ public class Barbarian extends Warrior {
     }
 
 
-    public String hasName(String name) {
-        return null;
-    }
-
-    public int changeHealth(int healthValue) {
-        return 0;
+    public void changeHealth(Player player, int healthValue) {
+        int currentHealth = player.getHealthPoints();
+        player.setHealthPoints(currentHealth - healthValue) ;
     }
 }

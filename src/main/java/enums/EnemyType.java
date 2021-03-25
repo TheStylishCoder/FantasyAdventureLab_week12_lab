@@ -10,7 +10,7 @@ public enum EnemyType {
     private final int healthValue;
     private final int attackValue;
 
-    public EnemyType(int healthValue, int attackValue){
+    EnemyType(int healthValue, int attackValue){
         this.healthValue = healthValue;
         this.attackValue = attackValue;
     }

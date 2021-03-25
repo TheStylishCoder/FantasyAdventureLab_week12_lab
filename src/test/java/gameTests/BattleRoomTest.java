@@ -1,5 +1,6 @@
 package gameTests;
 
+import enums.EnemyType;
 import game.BattleRoom;
 import org.junit.Before;
 
@@ -9,6 +10,6 @@ public class BattleRoomTest {
 
     @Before
     public void before(){
-        battleRoom = new BattleRoom("The Dungeon", false, EnemyType.enemy);
+        battleRoom = new BattleRoom("The Dungeon", false, EnemyType.BALLOONBORRIS1);
     }
 }

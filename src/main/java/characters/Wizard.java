@@ -2,6 +2,7 @@ package characters;
 
 import enums.MythicalCreatureType;
 import enums.SpellType;
+import player.Player;
 
 public class Wizard extends Magician {
 
@@ -11,11 +12,7 @@ public class Wizard extends Magician {
 
     }
 
-    public String hasName(String name) {
-        return null;
-    }
+    public void changeHealth(Player player, int healthValue){
 
-    public int changeHealth(int healthValue) {
-        return 0;
     }
 }

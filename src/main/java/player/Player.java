@@ -13,4 +13,12 @@ public class Player {
         this.healthPoints = healthPoints;
         this.iCharacter = iCharacter;
     }
+
+    public int getHealthPoints() {
+        return healthPoints;
+    }
+
+    public void setHealthPoints(int healthPoints) {
+        this.healthPoints = healthPoints;
+    }
 }

@@ -2,6 +2,7 @@ package characters;
 
 import behaviours.ICharacter;
 import enums.HealingTool;
+import player.Player;
 
 public class Cleric implements ICharacter {
 
@@ -13,11 +14,8 @@ public class Cleric implements ICharacter {
         this.shield = shield;
     }
 
-    public String hasName(String name) {
-        return null;
-    }
 
-    public int changeHealth(int healthValue) {
-        return 0;
-    }
+   public void changeHealth(Player player, int healthValue){
+
+   }
 }

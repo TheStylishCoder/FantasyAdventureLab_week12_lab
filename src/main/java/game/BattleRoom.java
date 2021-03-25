@@ -1,5 +1,7 @@
 package game;
 
+import enums.EnemyType;
+
 public class BattleRoom extends Room {
     EnemyType enemy;
 
