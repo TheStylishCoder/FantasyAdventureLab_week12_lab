@@ -1,6 +1,9 @@
 package characters;
 
 import behaviours.ICharacter;
+import enums.MythicalCreatureType;
+import enums.SpellType;
+
 
 public abstract class Magician implements ICharacter {
     SpellType spell;
