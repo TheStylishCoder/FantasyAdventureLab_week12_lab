@@ -10,6 +10,7 @@ public class Knight extends Warrior {
     }
 
     public void changeHealth(Player player, int healthValue){
-
+        int currentHealth = player.getHealthPoints();
+        player.setHealthPoints(currentHealth - healthValue) ;
     }
 }

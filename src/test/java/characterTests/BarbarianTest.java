@@ -23,7 +23,12 @@ public class BarbarianTest {
     public void canChangeHealth(){
         barbarian.changeHealth(player, 10);
         assertEquals(90, player.getHealthPoints());
+    }
 
+    @Test
+    public void canChangeWeapon(){
+        barbarian.changeWeapon(WeaponType.AXE);
+        assertEquals(WeaponType.AXE, barbarian.getWeapon());
     }
 
 }

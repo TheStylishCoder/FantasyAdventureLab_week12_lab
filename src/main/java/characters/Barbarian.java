@@ -14,4 +14,6 @@ public class Barbarian extends Warrior {
         int currentHealth = player.getHealthPoints();
         player.setHealthPoints(currentHealth - healthValue) ;
     }
+
+
 }

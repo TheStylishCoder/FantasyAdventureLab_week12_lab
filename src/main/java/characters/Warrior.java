@@ -9,4 +9,12 @@ public abstract class Warrior implements ICharacter {
     public Warrior(WeaponType weapon) {
         this.weapon = weapon;
     }
+
+    public WeaponType getWeapon(){
+        return this.weapon;
+    }
+
+    public void changeWeapon(WeaponType weapon){
+        this.weapon = weapon;
+    }
 }

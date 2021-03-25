@@ -10,6 +10,7 @@ public class Dwarf extends Warrior {
     }
 
     public void changeHealth(Player player, int healthValue){
-
+        int currentHealth = player.getHealthPoints();
+        player.setHealthPoints(currentHealth - healthValue) ;
     }
 }
